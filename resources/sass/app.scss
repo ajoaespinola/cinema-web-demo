@@ -4,5 +4,8 @@
 // Variables
 @import 'variables';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// Bootstrap (INCLUDED BY DEFAULT IN ADMINLTE)
+// @import "~bootstrap/scss/bootstrap";
+
+// AdminLTE
+@import '~admin-lte/build/scss/adminlte';

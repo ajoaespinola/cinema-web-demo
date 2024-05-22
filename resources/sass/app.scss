@@ -1,4 +1,5 @@
 // Fonts
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3');
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables
@@ -6,6 +7,15 @@
 
 // Bootstrap (INCLUDED BY DEFAULT IN ADMINLTE)
 // @import "~bootstrap/scss/bootstrap";
+
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+
+// icheck-bootstrap
+@import "~icheck-bootstrap/icheck-bootstrap.css";
 
 // AdminLTE
 @import '~admin-lte/build/scss/adminlte';

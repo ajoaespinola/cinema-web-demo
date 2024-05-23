@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     @component('layouts.partials.html_header')
         @section('html_header_title', __('login-recover.login.title'))
     @endcomponent
@@ -40,7 +40,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-8">
+                            <div class="col-7">
                                 <div class="icheck-primary">
                                     <input type="checkbox" id="remember" name="remember" {{ old('remember') ? 'checked' : '' }}>
                                     <label for="remember">
@@ -49,7 +49,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-4">
+                            <div class="col-5">
                                 <button type="submit" class="btn btn-primary btn-block">
                                     {{ __('login-recover.login.action_button') }}
                                 </button>
@@ -68,6 +68,6 @@
         </div>
 
         <!-- Scripts -->
-        <script src="{{ asset('js/app.js') }}" defer></script>
+        <script src="{{ mix('js/app.js') }}" defer></script>
     </body>
 </html>
